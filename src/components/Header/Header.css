@@ -1,0 +1,42 @@
+header{
+    background-color: #fff;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10dvh;
+
+    button{
+        padding: 12px 30px;
+        background-color: #7dba28;
+        color: #fff;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        transition: .4s ease;
+
+        &:hover{
+            background-color: #5a8322;
+        }
+    }
+}
+
+nav {
+
+    display: flex;
+    gap: 20px;
+
+    a {
+        text-decoration: none;
+        padding: 5px;
+        color: #333;
+        font-size: 20px;
+        border-bottom: 2px solid transparent;
+
+    }
+
+    &:hover {
+        border-bottom: 2px solid #333;
+    }
+}
